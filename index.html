@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ABC Hospital</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="doctlogin.html">Doctor Login</a></li>
+                    <li><a href="patlogin.html">Patient Login</a></li>
+                    <li><a href="medicallogin.html">Medical Agent</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <marquee behavior="scroll" direction="left" style="background-color: #508C9B;"> ABC HOSPITALS</marquee>
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to ABC Hospital</h2>
+            <p>Your health is our priority. We offer the best medical care with advanced technology and compassionate service.</p>
+        </div>
+    </section>
+
+    
+    <section class="emergency-card">
+        <div class="container">
+            <div class="card">
+                <h3>Emergency 24/7</h3>
+                <p>For urgent medical assistance at any time, call our emergency number: <strong>123-456-7890</strong></p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="appointments">
+        <div class="container">
+            <h2>Schedule Your Appointment</h2>
+            <form>
+                <fieldset>
+                    <legend>Schedule Appointment</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    
+                    <label for="department">Select Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="">--Select Department--</option>
+                        <option value="general-medicine">General Medicine</option>
+                        <option value="surgery">Surgery</option>
+                        <option value="pediatrics">Pediatrics</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="orthopedics">Orthopedics</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="gynecology">Gynecology</option>
+                        <option value="dermatology">Dermatology</option>
+                        <option value="radiology">Radiology</option>
+                        <option value="psychiatry">Psychiatry</option>
+                        <option value="oncology">Oncology</option>
+                        <option value="urology">Urology</option>
+                        <option value="ent">ENT (Ear, Nose, Throat)</option>
+                        <option value="ophthalmology">Ophthalmology</option>
+                    </select>
+                    
+                    <label for="message">Additional Information:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                    
+                    <button type="submit">Schedule Appointment</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    
+
+    <div class="body img">
+        <img id="bodyimg" src="/hospitals.jpg" alt="hospital img">
+        <img id="bodyimg" src="/hospitals1.jpg" alt="hospital2 img">
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ABC Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
